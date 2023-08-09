@@ -14,5 +14,5 @@ function canPay(changeArray, totalDue) {
 }
 
 // Test cases
-console.log(canPay([1,2,5], 10)); // Output: false
+console.log(canPay([1,4,5], 10)); // Output: false
 console.log(canPay([1,5,5], 10)); // Output: true
